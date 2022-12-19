@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="fondo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(44, 62, 80);</string>
+    </property>
+    <widget class="QLabel" name="label_resumen">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>411</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 30pt &quot;Arial&quot;;
+color: rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>RESUMEN DEL NIVEL</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>129</x>
+       <y>480</y>
+       <width>471</width>
+       <height>63</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLabel" name="label_estado_nivel">
+        <property name="styleSheet">
+         <string notr="true">font: 15pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Estado nivel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="boton_siguiente">
+     <property name="geometry">
+      <rect>
+       <x>127</x>
+       <y>550</y>
+       <width>211</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(97, 106, 107);
+font: 10pt &quot;Arial&quot;;
+color: white;
+</string>
+     </property>
+     <property name="text">
+      <string>Siguiente nivel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="boton_salir">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>550</y>
+       <width>201</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(97, 106, 107);
+font: 10pt &quot;Arial&quot;;
+color: white;
+</string>
+     </property>
+     <property name="text">
+      <string>Menú Principal</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>170</y>
+       <width>491</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_nivel_actual">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Nivel actual</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="nivel">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>270</y>
+       <width>491</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_balas_restantes">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Balas restantes</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="balas">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>320</y>
+       <width>491</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_puntaje_total">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Puntaje total</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_valor_puntaje_total">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>220</y>
+       <width>491</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_tiempo_restante">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Tiempo restante</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="tiempo">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>370</y>
+       <width>491</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_puntaje_nivel">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>Puntaje obtenido en nivel</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_valor_puntaje_nivel">
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Arial&quot;;
+color: white</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
